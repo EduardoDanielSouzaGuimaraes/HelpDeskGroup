@@ -1,0 +1,32 @@
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HelpDesk</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <div class="title">
+      <h1>Cadastrar Empresa</h1>
+    </div>
+    <div class="middle">
+      <div class="user">
+        <input id="txtUser" class="txtInput" placeholder="Nome Fantasia" type="text" required>
+      </div>
+      <div class="password">
+        <input id="txtPassword" class="txtInput" placeholder="Razão Social" type="password" required>
+      </div>
+      <div class="password">
+        <input id="txtCNPJ" class="txtInput" placeholder="CNPJ" type="password" required>
+      </div>
+      <div class="button">
+          <input id="btnLogin" type="button" value="Cadastrar" onclick="CadastrarEmpresa(txtUser.value,txtPassword.value,txtCNPJ.value)">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
